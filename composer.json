@@ -1,0 +1,28 @@
+{
+    "name": "thusk/ts3-php",
+    "type": "library",
+    "description": "Framework of ts3 in php.",
+    "keywords": ["teamspeak3","php","psr-4"],
+    "minimum-stability": "dev",
+    "homepage": "https://github.com/thusk/ts3-php",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Sven Paulsen"
+        },
+        {
+            "name": "Frank Kubis",
+            "email": "f.kubis@aranox.de"
+        },
+		{
+			"name": "Daniel Rubin"
+			"email": "danielrubin95@hotmail.com"
+		}
+    ],
+    "autoload": {
+        "psr-4": { "TeamSpeak3\\": "TeamSpeak3/" }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
