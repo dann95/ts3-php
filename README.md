@@ -10,7 +10,7 @@ Usage
 Install via composer:
 
     "require": {
-        "fkubis/teamspeak-php-framework": "dev-master"
+        "thusk/ts3-php": "dev-master"
     },
 
 Skipp the required_once part of official documentation and replace it with use TeamSpeak3\TeamSpeak3 statement.
